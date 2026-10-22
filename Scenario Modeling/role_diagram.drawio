@@ -1,0 +1,115 @@
+<mxfile host="Electron">
+  <diagram name="Pagina-1" id="yyhJqyXS3u9oEqI8-Oso">
+    <mxGraphModel dx="1299" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-45" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Intermediario" vertex="1">
+          <mxGeometry height="60" width="30" x="880" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-46" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Amministratore &lt;br&gt;della piattaforma" vertex="1">
+          <mxGeometry height="60" width="30" x="1100" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-47" edge="1" parent="1" source="_YQj1nSe_le5TwpDuNHn-45" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="_YQj1nSe_le5TwpDuNHn-46" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="454" y="702" as="sourcePoint" />
+            <mxPoint x="334" y="822" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-54" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Gestore delle identità &lt;br&gt;e onboarding" vertex="1">
+          <mxGeometry height="60" width="30" x="1090" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-55" edge="1" parent="1" source="_YQj1nSe_le5TwpDuNHn-45" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="_YQj1nSe_le5TwpDuNHn-54" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="334" y="825" as="sourcePoint" />
+            <mxPoint x="344" y="937" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-56" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Assistente all&#39;uso" vertex="1">
+          <mxGeometry height="60" width="30" x="990" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-57" edge="1" parent="1" source="_YQj1nSe_le5TwpDuNHn-45" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="_YQj1nSe_le5TwpDuNHn-56" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="394" y="975" as="sourcePoint" />
+            <mxPoint x="404" y="1087" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-58" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Concessionaria" vertex="1">
+          <mxGeometry height="60" width="30" x="880" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-59" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Responsabile&lt;br&gt;della consegna" vertex="1">
+          <mxGeometry height="60" width="30" x="1100" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-60" edge="1" parent="1" source="_YQj1nSe_le5TwpDuNHn-58" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="_YQj1nSe_le5TwpDuNHn-59" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1040" y="182" as="sourcePoint" />
+            <mxPoint x="920" y="302" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-61" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Registrante del&lt;br&gt;veicolo base" vertex="1">
+          <mxGeometry height="60" width="30" x="1080" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-62" edge="1" parent="1" source="_YQj1nSe_le5TwpDuNHn-58" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="_YQj1nSe_le5TwpDuNHn-61" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1040" y="120" as="sourcePoint" />
+            <mxPoint x="1050" y="232" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-63" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Azienda di Tuning" vertex="1">
+          <mxGeometry height="60" width="30" x="820" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-64" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Esecutore della modifica" vertex="1">
+          <mxGeometry height="60" width="30" x="670" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-65" edge="1" parent="1" source="_YQj1nSe_le5TwpDuNHn-63" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="_YQj1nSe_le5TwpDuNHn-64" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1250" y="517" as="sourcePoint" />
+            <mxPoint x="1130" y="637" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-66" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Centro di &lt;br&gt;Certificazione" vertex="1">
+          <mxGeometry height="60" width="30" x="750" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-67" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Ispettore/Collaudatore" vertex="1">
+          <mxGeometry height="60" width="30" x="560" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-68" edge="1" parent="1" source="_YQj1nSe_le5TwpDuNHn-66" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="_YQj1nSe_le5TwpDuNHn-67" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1070" y="292" as="sourcePoint" />
+            <mxPoint x="950" y="412" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-69" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Emittente della certificazione" vertex="1">
+          <mxGeometry height="60" width="30" x="540" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-70" edge="1" parent="1" source="_YQj1nSe_le5TwpDuNHn-66" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="_YQj1nSe_le5TwpDuNHn-69" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1040" y="430" as="sourcePoint" />
+            <mxPoint x="1050" y="542" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-71" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Cliente Privato&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="750" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-72" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Consultatore dello storico" vertex="1">
+          <mxGeometry height="60" width="30" x="540" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-73" edge="1" parent="1" source="_YQj1nSe_le5TwpDuNHn-71" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="_YQj1nSe_le5TwpDuNHn-72" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="150" y="624.5" as="sourcePoint" />
+            <mxPoint x="30" y="744.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-74" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Acquirente/Nuovo proprietario" vertex="1">
+          <mxGeometry height="60" width="30" x="540" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="_YQj1nSe_le5TwpDuNHn-75" edge="1" parent="1" source="_YQj1nSe_le5TwpDuNHn-71" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="_YQj1nSe_le5TwpDuNHn-74" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="30" y="752.5" as="sourcePoint" />
+            <mxPoint x="40" y="864.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,63 @@
+Proprietario del veicolo
+Coppia di softgoal	Relazione
+SG1.1 Trasparenza dello storico del veicolo → SG1.2 Fiducia nell'autenticità delle informazioni	+
+SG1.1 Trasparenza dello storico del veicolo → SG1.5 Valorizzazione del veicolo	+
+SG1.2 Fiducia nell'autenticità delle informazioni → SG1.5 Valorizzazione del veicolo	+
+SG1.3 Semplicità nella gestione delle pratiche → SG1.1 Trasparenza dello storico del veicolo	+
+SG1.4 Protezione dei dati personali → SG1.1 Trasparenza dello storico del veicolo	-
+SG1.4 Protezione dei dati personali → SG4.5 Condivisione sicura delle informazioni	+
+
+
+Operatore Tecnico
+Coppia di softgoal	Relazione
+SG2.1 Efficienza nella gestione degli interventi → SG1.3 Semplicità nella gestione delle pratiche	+
+SG2.2 Tracciabilità degli interventi tecnici → SG1.2 Fiducia nell'autenticità delle informazioni	+
+SG2.2 Tracciabilità degli interventi tecnici → SG5.4 Riduzione delle frodi documentali	+
+SG2.3 Certificazione della professionalità → SG1.2 Fiducia nell'autenticità delle informazioni	+
+SG2.4 Conformità normativa delle modifiche → SG5.3 Facilità di controllo del veicolo	+
+SG2.4 Conformità normativa delle modifiche → SG4.1 Accuratezza delle informazioni sul veicolo	+
+SG2.5 Interoperabilità con altri attori → SG4.5 Condivisione sicura delle informazioni	+
+SG2.1 Efficienza nella gestione degli interventi → SG2.2 Tracciabilità degli interventi tecnici	+
+SG2.3 Certificazione della professionalità → SG2.5 Interoperabilità con altri attori	+
+
+
+Attore commerciale
+Coppia di softgoal	Relazione
+SG3.1 Autenticità dei componenti installati → SG1.2 Fiducia nell'autenticità delle informazioni	+
+SG3.1 Autenticità dei componenti installati → SG5.1 Integrità delle informazioni di omologazione	+
+SG3.2 Tracciabilità della filiera → SG3.3 Protezione dalla contraffazione	+
+SG3.2 Tracciabilità della filiera → SG1.5 Valorizzazione del veicolo	+
+SG3.3 Protezione dalla contraffazione → SG3.1 Autenticità dei componenti installati	+
+SG3.3 Protezione dalla contraffazione → SG5.4 Riduzione delle frodi documentali	+
+SG3.4 Integrazione delle informazioni tecniche → SG2.4 Conformità normativa delle modifiche	+
+SG3.4 Integrazione delle informazioni tecniche → SG5.3 Facilità di controllo del veicolo	+
+SG3.5 Rafforzamento della fiducia commerciale → SG1.2 Fiducia nell'autenticità delle informazioni	+
+SG3.3 Protezione dalla contraffazione → SG2.1 Efficienza nella gestione degli interventi	-
+SG3.5 Rafforzamento della fiducia commerciale → SG3.3 Protezione dalla contraffazione	+
+
+
+Attore assicurativo
+Coppia di softgoal	Relazione
+SG4.1 Accuratezza delle informazioni sul veicolo → SG4.3 Valutazione corretta del rischio	+
+SG4.1 Accuratezza delle informazioni sul veicolo → SG4.2 Riduzione delle frodi assicurative	+
+SG4.2 Riduzione delle frodi assicurative → SG4.4 Efficienza nella gestione dei sinistri	+
+SG4.3 Valutazione corretta del rischio → SG4.4 Efficienza nella gestione dei sinistri	+
+SG4.5 Condivisione sicura delle informazioni → SG1.4 Protezione dei dati personali	+
+SG4.5 Condivisione sicura delle informazioni → SG1.1 Trasparenza dello storico del veicolo	-
+SG4.1 Accuratezza delle informazioni sul veicolo → SG5.3 Facilità di controllo del veicolo	+
+SG4.2 Riduzione delle frodi assicurative → SG5.4 Riduzione delle frodi documentali	+
+
+
+Enti di omologazione e controllo
+Coppia di softgoal	Relazione
+SG5.1 Integrità delle informazioni di omologazione → SG5.4 Riduzione delle frodi documentali	+
+SG5.1 Integrità delle informazioni di omologazione → SG5.3 Facilità di controllo del veicolo	+
+SG5.2 Efficienza dei processi autorizzativi → SG1.3 Semplicità nella gestione delle pratiche	+
+SG5.2 Efficienza dei processi autorizzativi → SG2.1 Efficienza nella gestione degli interventi	+
+SG5.3 Facilità di controllo del veicolo → SG4.1 Accuratezza delle informazioni sul veicolo	+
+SG5.4 Riduzione delle frodi documentali → SG1.2 Fiducia nell'autenticità delle informazioni	+
+SG5.5 Standardizzazione dei processi → SG5.2 Efficienza dei processi autorizzativi	+
+SG5.5 Standardizzazione dei processi → SG2.4 Conformità normativa delle modifiche	+
+SG5.5 Standardizzazione dei processi → SG2.5 Interoperabilità con altri attori	+
+SG5.5 Standardizzazione dei processi → SG2.1 Efficienza nella gestione degli interventi	-
+SG5.3 Facilità di controllo del veicolo → SG1.4 Protezione dei dati personali	-

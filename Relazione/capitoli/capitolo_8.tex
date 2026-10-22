@@ -1,0 +1,47 @@
+\chapter{Conclusioni}
+
+Il presente documento ha esaminato la fattibilità e la progettazione di \textit{Tuning Ledger}, una piattaforma basata su tecnologia blockchain per la registrazione e la certificazione delle modifiche apportate ai veicoli dopo l'immatricolazione, con l'obiettivo di garantire trasparenza, autenticit\`a e verificabilit\`a delle informazioni lungo l'intero ciclo di vita del mezzo.
+
+Lo studio ha preso avvio da un'analisi del contesto che ha messo in luce come la filiera dell'automotive tuning, pur avendo acquisito una rilevanza economica crescente, continui a fondarsi su strumenti documentali eterogenei e privi di garanzie di integrit\`a. La modellazione GOREM del contesto ha permesso di formalizzare gli obiettivi non funzionali dei soggetti coinvolti e le relazioni che intercorrono tra di essi, evidenziando come le qualit\`a attese dai diversi stakeholder siano in larga misura convergenti: un registro condiviso e non alterabile produce benefici simultanei lungo tutta la catena del valore. La medesima analisi ha per\`o portato alla luce il principale \textit{trade-off} progettuale del sistema, ossia la tensione tra l'apertura informativa richiesta dalla trasparenza e la tutela della riservatezza dei dati del proprietario, che ha trovato risposta nella definizione di politiche di accesso selettivo differenziate per ruolo.
+
+La restrizione allo scenario specifico ha quindi consentito di definire il \textbf{Digital Modified Vehicle Passport} (DMVP) quale passaporto digitale immutabile associato al numero di telaio, e di individuare nell'\textbf{Intermediario} il cliente primario della piattaforma, attorno al quale \`e stato costruito il modello di business in Canvas. Sul piano tecnologico, il confronto con le soluzioni gi\`a disponibili sul mercato ha motivato l'adozione di una \textbf{blockchain permissioned} in \textbf{architettura ibrida}, nella quale i dati descrittivi e la documentazione risiedono \textit{off-chain} mentre sul registro distribuito viene ancorata la sola impronta crittografica: una scelta che preserva l'integrit\`a del dato contenendo al contempo costi operativi e limiti di scalabilit\`a.
+
+I flussi informativi e le interazioni del sistema sono stati mappati in dettaglio attraverso i casi d'uso modellati in GOREM e i processi rappresentati in notazione BPMN, che hanno reso esplicite le responsabilit\`a dei singoli attori e la separazione tra componente applicativa e infrastruttura blockchain. L'analisi SWOT ha successivamente confermato la solidit\`a complessiva della proposta, individuandone i punti di forza nell'immutabilit\`a del passaporto, nell'efficienza dell'architettura ibrida e nella tutela legale offerta a tutti gli attori coinvolti, e riconducendo i principali fattori di rischio alla necessit\`a di raggiungere una massa critica di aderenti e di ottenere un riconoscimento istituzionale del DMVP.
+
+Dal punto di vista realizzativo, il Project Plan ha delineato un percorso di \textbf{sei anni}, articolato in un anno di sviluppo e cinque di esercizio, con un impegno complessivo di \textbf{46,75 Anni-Persona} e un organico che passa dalle dodici unit\`a della fase di sviluppo alle otto della fase di esercizio, sostenuto da un'architettura a micro-servizi organizzata in cinque sottosistemi applicativi.
+
+Sul piano economico-finanziario, il Business Plan ha validato la sostenibilit\`a dell'iniziativa. A fronte di un capitale investito di \textbf{671.092,86~\euro{}}, la piattaforma raggiunge il \textbf{Break Even Point nel corso del terzo anno} di esercizio e produce, al termine del quinquennio, un risultato netto cumulato di circa \textbf{1,07 milioni di euro}, corrispondente a un \textbf{ROI del 160,10\%} e a un rendimento medio annuo del \textbf{12,02\%}. Va peraltro osservato che la proiezione adottata \`e deliberatamente prudenziale: essa assume una crescita graduale del portafoglio clienti e non contabilizza alcuni dei flussi di ricavo previsti dal Business Model Canvas, tra cui l'addebito proporzionale al volume di DMVP registrati e il marketplace di servizi aggiuntivi. Il margine con cui il pareggio viene conseguito resta tuttavia contenuto, circostanza che rende il rispetto di tale traguardo sensibile al ritmo effettivo di adesione degli intermediari.
+
+\section*{Vantaggi strategici}
+
+Il lavoro svolto ha messo in evidenza i seguenti benefici derivanti dall'implementazione della piattaforma:
+
+\begin{itemize}
+    \item \textbf{Certezza e non alterabilit\`a delle informazioni}: l'ancoraggio degli \textit{hash} sul registro distribuito rende tecnicamente impossibile retrodatare un intervento, sostituire documentazione tecnica o dichiarare modifiche mai eseguite, trasformando la documentazione da insieme di atti sparsi in storico certificato del veicolo.
+
+    \item \textbf{Tutela legale degli operatori}: la registrazione immutabile delle lavorazioni costituisce una prova documentale a favore dell'Azienda di Tuning contro contestazioni infondate e riduce l'esposizione della Concessionaria nella commercializzazione di veicoli modificati.
+
+    \item \textbf{Efficienza dei processi di verifica}: la disponibilit\`a di dati gi\`a strutturati e verificabili abbrevia i tempi di collaudo del Centro di Certificazione e semplifica i controlli degli enti preposti, che possono accertare la conformit\`a del mezzo senza ricostruirne manualmente la storia.
+
+    \item \textbf{Valorizzazione del veicolo}: la disponibilit\`a di uno storico certificato e trasferibile contrasta la svalutazione che oggi colpisce i mezzi modificati sul mercato dell'usato, poich\'e consente al proprietario di dimostrare la regolarit\`a e la qualit\`a delle personalizzazioni.
+
+    \item \textbf{Sostenibilit\`a economica della soluzione tecnica}: l'architettura ibrida coniuga le garanzie di integrit\`a proprie della blockchain con l'efficienza dell'archiviazione tradizionale, rendendo economicamente praticabile un'adozione su scala industriale.
+\end{itemize}
+
+\section*{Sviluppi futuri}
+
+Al di l\`a del perimetro dello scenario analizzato, la piattaforma offre alcune prospettive di evoluzione che meritano di essere segnalate:
+
+\begin{itemize}
+    \item \textbf{Estensione a segmenti contigui}: il modello del passaporto digitale pu\`o essere applicato al \textit{retrofit} elettrico, al restauro e alla certificazione dei veicoli storici, all'allestimento di veicoli commerciali e alla gestione documentale delle flotte aziendali, ambiti nei quali la tracciabilit\`a degli interventi riveste la medesima criticit\`a e che permetterebbero di ampliare in modo significativo il bacino d'utenza.
+
+    \item \textbf{Riconoscimento istituzionale del DMVP}: l'attribuzione di un valore formale al passaporto digitale da parte della Motorizzazione Civile e del comparto assicurativo rappresenta la principale leva di diffusione della piattaforma, in quanto ne trasformerebbe la natura da adempimento aggiuntivo a strumento sostitutivo della documentazione tradizionale.
+
+    \item \textbf{Integrazione con sistemi di intelligenza artificiale}: l'analisi dei dati storici raccolti sulla piattaforma consentirebbe di individuare correlazioni tra tipologie di modifica, componenti impiegati ed esiti dei collaudi, fornendo agli operatori indicazioni predittive sulla conformit\`a degli interventi in fase di progettazione.
+
+    \item \textbf{Interoperabilit\`a con i passaporti digitali di prodotto}: la progressiva affermazione, a livello europeo, dei \textit{Digital Product Passport} apre alla possibilit\`a di allineare il DMVP a standard condivisi, favorendone il riconoscimento transfrontaliero e l'integrazione con i registri della componentistica.
+
+    \item \textbf{Automazione contrattuale tramite smart contract}: l'estensione della logica \textit{on-chain} alla gestione delle garanzie e dei rapporti tra officine, fornitori e compagnie assicurative permetterebbe di automatizzare la verifica delle condizioni contrattuali sulla base di dati temporali non manipolabili.
+\end{itemize}
+
+In conclusione, lo studio conferma che \textit{Tuning Ledger} costituisce un'opportunit\`a concreta di innovazione per il settore della personalizzazione dei veicoli. La sua realizzazione non si limiterebbe a digitalizzare una documentazione oggi frammentaria, ma introdurrebbe uno strato di certificazione condiviso in grado di ridurre l'asimmetria informativa che caratterizza il mercato post-vendita, restituendo valore tanto agli operatori professionali quanto ai proprietari dei veicoli. La condizione di successo dell'iniziativa non risiede pertanto nella sola solidit\`a tecnica della soluzione, gi\`a verificata nel corso del presente lavoro, quanto piuttosto nella capacit\`a di aggregare attorno al registro un numero sufficiente di attori della filiera e di ottenere, dagli enti competenti, il riconoscimento che ne consacri il valore probatorio.

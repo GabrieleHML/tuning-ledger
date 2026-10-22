@@ -1,0 +1,281 @@
+<mxfile host="Electron" type="device">
+  <diagram name="Architettura Generale" id="901194218710">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1620" pageHeight="1180" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" value="Piattaforma DMVP - Architettura a Micro-Servizi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="10" width="1480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="F. Sottosistema Front-End Unificato" style="shape=folder;fontStyle=1;spacingTop=12;tabWidth=140;tabHeight=22;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;align=center;fontSize=13;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="55" width="1480" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="Portale Web B2B&lt;br&gt;(Concessionaria, Tuning, Certificazione)" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="45" y="48" width="320" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="App Mobile B2C&lt;br&gt;Cliente Privato" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="405" y="48" width="320" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="Console di Governance&lt;br&gt;Intermediario" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="765" y="48" width="320" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" value="API Gateway&lt;br&gt;(REST / integrazione partner)" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="1125" y="48" width="320" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" value="C. Sottosistema Concessionaria" style="shape=folder;fontStyle=1;spacingTop=12;tabWidth=140;tabHeight=22;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;align=center;fontSize=13;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="265" width="460" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" value="Gestione Dati Veicolo Base" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=11;verticalAlign=middle;" vertex="1" parent="c7">
+          <mxGeometry x="30" y="48" width="400" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" value="Inizializzazione DMVP&lt;br&gt;e Richiesta di Tuning" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=11;verticalAlign=middle;" vertex="1" parent="c7">
+          <mxGeometry x="30" y="105" width="400" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" value="Gestione Consegna&lt;br&gt;e Trasferimento DMVP" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=11;verticalAlign=middle;" vertex="1" parent="c7">
+          <mxGeometry x="30" y="162" width="400" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" value="D. Sottosistema Azienda di Tuning" style="shape=folder;fontStyle=1;spacingTop=12;tabWidth=140;tabHeight=22;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;align=center;fontSize=13;fillColor=#F8CECC;strokeColor=#B85450;" vertex="1" parent="1">
+          <mxGeometry x="570" y="265" width="460" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" value="Gestione Commessa di Tuning" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#F8CECC;strokeColor=#B85450;fontSize=11;verticalAlign=middle;" vertex="1" parent="c11">
+          <mxGeometry x="30" y="48" width="400" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" value="Registrazione Modifiche&lt;br&gt;e Seriali Componenti" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#F8CECC;strokeColor=#B85450;fontSize=11;verticalAlign=middle;" vertex="1" parent="c11">
+          <mxGeometry x="30" y="105" width="400" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" value="Acquisizione Prove Multimediali&lt;br&gt;e Documentazione Tecnica" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#F8CECC;strokeColor=#B85450;fontSize=11;verticalAlign=middle;" vertex="1" parent="c11">
+          <mxGeometry x="30" y="162" width="400" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" value="E. Sottosistema Centro di Certificazione" style="shape=folder;fontStyle=1;spacingTop=12;tabWidth=140;tabHeight=22;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;align=center;fontSize=13;fillColor=#E1D5E7;strokeColor=#9673A6;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="265" width="460" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" value="Gestione Ispezione e Collaudo" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=11;verticalAlign=middle;" vertex="1" parent="c15">
+          <mxGeometry x="30" y="48" width="400" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" value="Emissione e Registrazione&lt;br&gt;Certificato di Conformita'" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=11;verticalAlign=middle;" vertex="1" parent="c15">
+          <mxGeometry x="30" y="105" width="400" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" value="Segnalazione Non Conformita'" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=11;verticalAlign=middle;" vertex="1" parent="c15">
+          <mxGeometry x="30" y="162" width="400" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" value="B. Sottosistema Back-Office (Core della Piattaforma)" style="shape=folder;fontStyle=1;spacingTop=12;tabWidth=140;tabHeight=22;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;align=center;fontSize=13;fillColor=#D5E8D4;strokeColor=#82B366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="530" width="1480" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" value="Identity &amp; Access Management&lt;br&gt;(onboarding e identita' degli attori)" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=11;verticalAlign=middle;" vertex="1" parent="c19">
+          <mxGeometry x="40" y="50" width="440" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" value="DMVP Registry&lt;br&gt;(ciclo di vita del passaporto digitale)" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=11;verticalAlign=middle;" vertex="1" parent="c19">
+          <mxGeometry x="520" y="50" width="440" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="c22" value="Off-Chain Store Manager&lt;br&gt;(dati descrittivi e documenti)" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=11;verticalAlign=middle;" vertex="1" parent="c19">
+          <mxGeometry x="1000" y="50" width="440" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="c23" value="Blockchain Gateway&lt;br&gt;(ancoraggio hash, invoke chaincode)" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=11;verticalAlign=middle;" vertex="1" parent="c19">
+          <mxGeometry x="40" y="145" width="440" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="c24" value="Notifiche ed Eventi&lt;br&gt;(orchestrazione del workflow)" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=11;verticalAlign=middle;" vertex="1" parent="c19">
+          <mxGeometry x="520" y="145" width="440" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="c25" value="Ricerca, Verifica e Audit&lt;br&gt;(consultazione storico, QR code)" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=11;verticalAlign=middle;" vertex="1" parent="c19">
+          <mxGeometry x="1000" y="145" width="440" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="c26" value="Infrastruttura di Persistenza" style="shape=folder;fontStyle=1;spacingTop=12;tabWidth=140;tabHeight=22;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;align=center;fontSize=13;fillColor=#F5F5F5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="60" y="825" width="1000" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="c27" value="Rete Hyperledger Fabric permissioned&lt;br&gt;(peer, orderer, Certification Authority)" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#B1DDF0;strokeColor=#10739E;fontSize=11;verticalAlign=middle;" vertex="1" parent="c26">
+          <mxGeometry x="30" y="50" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c28" value="Smart Contract / Chaincode DMVP" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#B1DDF0;strokeColor=#10739E;fontSize=11;verticalAlign=middle;" vertex="1" parent="c26">
+          <mxGeometry x="30" y="135" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c29" value="Off-Chain&lt;br&gt;Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#F5F5F5;strokeColor=#666666;fontSize=11;verticalAlign=middle;" vertex="1" parent="c26">
+          <mxGeometry x="490" y="50" width="220" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="c30" value="Object Storage&lt;br&gt;(foto, PDF, schede)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#F5F5F5;strokeColor=#666666;fontSize=11;verticalAlign=middle;" vertex="1" parent="c26">
+          <mxGeometry x="740" y="50" width="230" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="c31" value="Sistemi Esterni" style="shape=folder;fontStyle=1;spacingTop=12;tabWidth=140;tabHeight=22;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;align=center;fontSize=13;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="825" width="450" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="c32" value="Motorizzazione Civile (MCTC)" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=11;verticalAlign=middle;" vertex="1" parent="c31">
+          <mxGeometry x="30" y="50" width="390" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="c33" value="Casa Automobilistica" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=11;verticalAlign=middle;" vertex="1" parent="c31">
+          <mxGeometry x="30" y="107" width="390" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="c34" value="Fornitori di Componenti" style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=11;verticalAlign=middle;" vertex="1" parent="c31">
+          <mxGeometry x="30" y="164" width="390" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="e35" value="&amp;lt;&amp;lt;use&amp;gt;&amp;gt;" style="endArrow=open;endSize=10;html=1;rounded=0;dashed=1;strokeColor=#666666;fontSize=10;exitX=0.15;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c2" target="c7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e36" value="&amp;lt;&amp;lt;use&amp;gt;&amp;gt;" style="endArrow=open;endSize=10;html=1;rounded=0;dashed=1;strokeColor=#666666;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c2" target="c11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e37" value="&amp;lt;&amp;lt;use&amp;gt;&amp;gt;" style="endArrow=open;endSize=10;html=1;rounded=0;dashed=1;strokeColor=#666666;fontSize=10;exitX=0.85;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c2" target="c15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e38" value="&amp;lt;&amp;lt;use&amp;gt;&amp;gt;" style="endArrow=open;endSize=10;html=1;rounded=0;dashed=1;strokeColor=#666666;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.15;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c7" target="c19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e39" value="&amp;lt;&amp;lt;use&amp;gt;&amp;gt;" style="endArrow=open;endSize=10;html=1;rounded=0;dashed=1;strokeColor=#666666;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c11" target="c19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e40" value="&amp;lt;&amp;lt;use&amp;gt;&amp;gt;" style="endArrow=open;endSize=10;html=1;rounded=0;dashed=1;strokeColor=#666666;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.85;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c15" target="c19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e41" value="hash e transazioni" style="endArrow=open;endSize=10;html=1;rounded=0;dashed=1;strokeColor=#666666;fontSize=10;exitX=0.28;exitY=1;exitDx=0;exitDy=0;entryX=0.41;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c19" target="c26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e42" value="API / dati ufficiali" style="endArrow=open;endSize=10;html=1;rounded=0;dashed=1;strokeColor=#666666;fontSize=10;exitX=0.85;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c19" target="c31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c43" value="Ogni sottosistema raccoglie micro-servizi indipendenti, esposti tramite API REST e coordinati dall'API Gateway. Il Back-Office e' l'unico livello autorizzato a scrivere sulla blockchain: i dati descrittivi e i documenti restano off-chain, mentre sulla catena viene ancorato soltanto l'hash crittografico, garantendo immutabilita' e contenimento dei costi di transazione." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=16;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=top;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1080" width="1480" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Back-Office" id="38587422650">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" value="Back-Office" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="15" width="1020" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="B. Sottosistema Back-Office" style="shape=folder;fontStyle=1;spacingTop=12;tabWidth=140;tabHeight=22;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;align=center;fontSize=13;fillColor=#D5E8D4;strokeColor=#82B366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1020" height="695" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="&lt;b&gt;Identity &amp; Access Management&lt;/b&gt;&lt;br&gt;Registrazione e verifica delle identita' degli attori business, emissione delle credenziali&lt;br&gt;di rete (MSP) e gestione dei permessi di accesso al canale permissioned." style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="40" y="50" width="940" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="&lt;b&gt;DMVP Registry&lt;/b&gt;&lt;br&gt;Creazione del passaporto digitale associato al numero di telaio e gestione della macchina&lt;br&gt;a stati del DMVP: Bozza, In Lavorazione, In Collaudo, Certificato e Conforme, Trasferito." style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="40" y="155" width="940" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="&lt;b&gt;Off-Chain Store Manager&lt;/b&gt;&lt;br&gt;Persistenza dei dati descrittivi, delle schede tecniche e dei documenti; calcolo dell'hash&lt;br&gt;crittografico da ancorare sulla blockchain e verifica di integrita' in lettura." style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="40" y="260" width="940" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" value="&lt;b&gt;Blockchain Gateway&lt;/b&gt;&lt;br&gt;Unico punto di accesso alla rete Hyperledger Fabric: sottomissione delle transazioni,&lt;br&gt;invocazione del chaincode, gestione degli eventi di commit e delle policy di endorsement." style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="40" y="365" width="940" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" value="&lt;b&gt;Notifiche ed Eventi&lt;/b&gt;&lt;br&gt;Orchestrazione del workflow tra gli attori: notifica di presa in carico all'Azienda di Tuning,&lt;br&gt;di fine lavorazioni al Centro di Certificazione e di esito collaudo alla Concessionaria." style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="40" y="470" width="940" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" value="&lt;b&gt;Ricerca, Verifica e Audit&lt;/b&gt;&lt;br&gt;Consultazione dello storico immutabile, verifica di autenticita' tramite QR code&lt;br&gt;e tracciatura delle operazioni per finalita' di audit." style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="40" y="575" width="940" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" value="Il Back-Office e' condiviso da tutti gli attori ed e' l'unico livello autorizzato a scrivere sulla blockchain.&lt;br&gt;I dati descrittivi risiedono off-chain: sulla catena viene ancorato soltanto l'hash crittografico, garantendo immutabilita' e contenimento dei costi di transazione." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=16;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=top;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="785" width="1020" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Concessionaria" id="896213167819">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" value="Concessionaria" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="15" width="1020" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="C. Sottosistema Concessionaria" style="shape=folder;fontStyle=1;spacingTop=12;tabWidth=140;tabHeight=22;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;align=center;fontSize=13;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1020" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="&lt;b&gt;Gestione Dati Veicolo Base&lt;/b&gt;&lt;br&gt;Acquisizione dei dati identificativi del veicolo originale (telaio, allestimento, omologazione)&lt;br&gt;forniti dalla Casa Automobilistica e loro validazione." style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="40" y="50" width="940" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="&lt;b&gt;Inizializzazione DMVP e Richiesta di Tuning&lt;/b&gt;&lt;br&gt;Creazione dell'istanza di DMVP in stato Bozza, registrazione delle modifiche commissionate&lt;br&gt;dal Cliente Privato e inoltro della richiesta all'Azienda di Tuning." style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="40" y="155" width="940" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="&lt;b&gt;Gestione Consegna e Trasferimento DMVP&lt;/b&gt;&lt;br&gt;Avvio della procedura di consegna del veicolo omologato e richiesta di trasferimento&lt;br&gt;della proprieta' del passaporto digitale all'account del Cliente Privato." style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="40" y="260" width="940" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" value="Copre gli use case UC1 (Registrazione del veicolo base e della richiesta di tuning) e UC4 (Consegna del veicolo e trasferimento del DMVP)." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=16;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=top;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="470" width="1020" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Azienda di Tuning" id="88948381068">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" value="Azienda di Tuning" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="15" width="1020" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="D. Sottosistema Azienda di Tuning" style="shape=folder;fontStyle=1;spacingTop=12;tabWidth=140;tabHeight=22;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;align=center;fontSize=13;fillColor=#F8CECC;strokeColor=#B85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1020" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="&lt;b&gt;Gestione Commessa di Tuning&lt;/b&gt;&lt;br&gt;Presa in carico della richiesta, pianificazione delle lavorazioni e aggiornamento&lt;br&gt;dello stato di avanzamento della commessa." style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#F8CECC;strokeColor=#B85450;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="40" y="50" width="940" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="&lt;b&gt;Registrazione Modifiche e Seriali Componenti&lt;/b&gt;&lt;br&gt;Inserimento delle specifiche tecniche degli interventi e dei codici seriali dei componenti&lt;br&gt;installati, con verifica della provenienza certificata presso i Fornitori." style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#F8CECC;strokeColor=#B85450;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="40" y="155" width="940" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="&lt;b&gt;Acquisizione Prove Multimediali e Documentazione Tecnica&lt;/b&gt;&lt;br&gt;Caricamento di fotografie, video e schede tecniche a corredo delle modifiche eseguite,&lt;br&gt;con marcatura temporale e ancoraggio dell'hash sulla blockchain." style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#F8CECC;strokeColor=#B85450;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="40" y="260" width="940" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" value="Copre lo use case UC2 (Esecuzione del tuning e registrazione delle modifiche): e' il cuore operativo della piattaforma, in cui il DMVP viene arricchito in modo immutabile." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=16;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=top;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="470" width="1020" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Centro di Certificazione" id="460316801357">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" value="Centro di Certificazione" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="15" width="1020" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="E. Sottosistema Centro di Certificazione" style="shape=folder;fontStyle=1;spacingTop=12;tabWidth=140;tabHeight=22;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;align=center;fontSize=13;fillColor=#E1D5E7;strokeColor=#9673A6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1020" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="&lt;b&gt;Gestione Ispezione e Collaudo&lt;/b&gt;&lt;br&gt;Consultazione dello storico immutabile del DMVP, esecuzione della checklist normativa&lt;br&gt;e registrazione degli esiti delle verifiche tecniche." style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="40" y="50" width="940" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="&lt;b&gt;Emissione e Registrazione Certificato di Conformita'&lt;/b&gt;&lt;br&gt;Generazione del certificato digitale firmato, archiviazione off-chain del documento&lt;br&gt;e ancoraggio del relativo hash sulla blockchain, con aggiornamento dello stato del DMVP." style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="40" y="155" width="940" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="&lt;b&gt;Segnalazione Non Conformita'&lt;/b&gt;&lt;br&gt;Produzione del report di anomalia in caso di esito negativo del collaudo&lt;br&gt;e reindirizzamento della pratica all'Azienda di Tuning per le correzioni." style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="40" y="260" width="940" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" value="Copre lo use case UC3 (Ispezione, collaudo e rilascio della certificazione). Il modulo si interfaccia con la Motorizzazione Civile per la pratica di omologazione delle modifiche." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=16;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=top;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="470" width="1020" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Front-End Unificato" id="692001506665">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" value="Front-End Unificato" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="15" width="1020" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="F. Sottosistema Front-End Unificato" style="shape=folder;fontStyle=1;spacingTop=12;tabWidth=140;tabHeight=22;tabPosition=left;html=1;whiteSpace=wrap;verticalAlign=top;align=center;fontSize=13;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1020" height="485" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="&lt;b&gt;Portale Web B2B&lt;/b&gt;&lt;br&gt;Interfaccia unica per Concessionaria, Azienda di Tuning e Centro di Certificazione,&lt;br&gt;con viste e permessi differenziati in base al ruolo dell'utente autenticato." style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="40" y="50" width="940" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="&lt;b&gt;App Mobile B2C Cliente Privato&lt;/b&gt;&lt;br&gt;Consultazione dello storico immutabile del veicolo, scansione del QR code applicato&lt;br&gt;al mezzo, accettazione della consegna e notifiche a ogni aggiornamento del DMVP." style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="40" y="155" width="940" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="&lt;b&gt;Console di Governance Intermediario&lt;/b&gt;&lt;br&gt;Amministrazione della rete permissioned, gestione dei nodi e delle policy, onboarding&lt;br&gt;degli attori business e cruscotto di analisi dei dati di esercizio." style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="40" y="260" width="940" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" value="&lt;b&gt;API Gateway&lt;/b&gt;&lt;br&gt;Punto di ingresso unico ai micro-servizi: autenticazione, autorizzazione, rate limiting&lt;br&gt;e integrazione con i sistemi gestionali dei partner." style="html=1;dropTarget=0;whiteSpace=wrap;shape=module;align=left;spacingLeft=22;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=11;verticalAlign=middle;" vertex="1" parent="c2">
+          <mxGeometry x="40" y="365" width="940" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" value="Il front-end e' realizzato come applicazione unica multi-ruolo: la separazione tra utenti B2B e B2C avviene a livello di autenticazione e di profilo autorizzativo." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=16;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=top;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="575" width="1020" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

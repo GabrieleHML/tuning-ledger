@@ -1,0 +1,91 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="VLQO9eAJaB7K-vUBG-k5">
+    <mxGraphModel dx="1365" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dtA4BtlVRR2pehWDt1ig-1" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Registrante del&lt;br&gt;veicolo base" vertex="1">
+          <mxGeometry height="60" width="30" x="220" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="dtA4BtlVRR2pehWDt1ig-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Registrare veicolo base&lt;br&gt;e richiesta di tuning" vertex="1">
+          <mxGeometry height="90" width="140" x="340" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dtA4BtlVRR2pehWDt1ig-7" edge="1" parent="1" source="dtA4BtlVRR2pehWDt1ig-6" style="endArrow=none;html=1;rounded=0;align=center;strokeColor=default;endFill=0;" target="dtA4BtlVRR2pehWDt1ig-1" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="313" y="280" as="sourcePoint" />
+            <mxPoint x="233" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dtA4BtlVRR2pehWDt1ig-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Inizializzare DMVP" vertex="1">
+          <mxGeometry height="75" width="130" x="630" y="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dtA4BtlVRR2pehWDt1ig-9" edge="1" parent="1" source="dtA4BtlVRR2pehWDt1ig-6" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="dtA4BtlVRR2pehWDt1ig-8" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="343" y="340" as="sourcePoint" />
+            <mxPoint x="263" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dtA4BtlVRR2pehWDt1ig-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Avviare la consegna&lt;br&gt;del veicolo" vertex="1">
+          <mxGeometry height="80" width="135" x="342.5" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="dtA4BtlVRR2pehWDt1ig-19" edge="1" parent="1" source="xIaQAx2DOyU2Knwwn3zK-12" style="endArrow=none;html=1;rounded=0;align=center;endFill=0;" target="dtA4BtlVRR2pehWDt1ig-16" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="683" y="160" as="sourcePoint" />
+            <mxPoint x="603" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4ulkGSINLmSn51cwtrN-1" edge="1" parent="1" source="dtA4BtlVRR2pehWDt1ig-8" style="endArrow=none;html=1;rounded=0;align=center;strokeColor=default;endFill=0;" target="xIaQAx2DOyU2Knwwn3zK-10" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="415" y="337.5" as="sourcePoint" />
+            <mxPoint x="240" y="387.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xIaQAx2DOyU2Knwwn3zK-1" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Concessionaria" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="xIaQAx2DOyU2Knwwn3zK-2" edge="1" parent="1" source="xIaQAx2DOyU2Knwwn3zK-1" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="dtA4BtlVRR2pehWDt1ig-1" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="240" as="sourcePoint" />
+            <mxPoint x="170" y="322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xIaQAx2DOyU2Knwwn3zK-3" edge="1" parent="1" source="dtA4BtlVRR2pehWDt1ig-16" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="xIaQAx2DOyU2Knwwn3zK-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="570" y="90" as="sourcePoint" />
+            <mxPoint x="570" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xIaQAx2DOyU2Knwwn3zK-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Registrare consegna&lt;br&gt;sul DMVP" vertex="1">
+          <mxGeometry height="75" width="130" x="630" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="xIaQAx2DOyU2Knwwn3zK-6" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Intermediario" vertex="1">
+          <mxGeometry height="60" width="30" x="680" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="xIaQAx2DOyU2Knwwn3zK-7" edge="1" parent="1" source="xIaQAx2DOyU2Knwwn3zK-6" style="endArrow=none;html=1;rounded=0;align=center;endFill=0;" target="xIaQAx2DOyU2Knwwn3zK-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="650" y="171" as="sourcePoint" />
+            <mxPoint x="771" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xIaQAx2DOyU2Knwwn3zK-10" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Intermediario" vertex="1">
+          <mxGeometry height="60" width="30" x="680" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="xIaQAx2DOyU2Knwwn3zK-12" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Responsabile&lt;br&gt;della consegna" vertex="1">
+          <mxGeometry height="60" width="30" x="230" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="xIaQAx2DOyU2Knwwn3zK-15" edge="1" parent="1" source="xIaQAx2DOyU2Knwwn3zK-1" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="xIaQAx2DOyU2Knwwn3zK-12" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="351" as="sourcePoint" />
+            <mxPoint x="490" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

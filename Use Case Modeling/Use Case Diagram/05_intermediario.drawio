@@ -1,0 +1,110 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="PumU7dGitwI2BGjGtpwZ">
+    <mxGraphModel dx="1130" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-1" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Amministratore&lt;br&gt;della piattaforma" vertex="1">
+          <mxGeometry height="60" width="30" x="340" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Configurare la&lt;br&gt;piattaforma&lt;br&gt;blockchain" vertex="1">
+          <mxGeometry height="95" width="147.5" x="542.5" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-3" edge="1" parent="1" source="T8GWPufGv7GLpf6FNoHR-2" style="endArrow=none;html=1;rounded=0;align=center;strokeColor=default;endFill=0;" target="T8GWPufGv7GLpf6FNoHR-1" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="323" y="292.5" as="sourcePoint" />
+            <mxPoint x="243" y="262.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Assistenza all&#39;uso&lt;br&gt;della piattaforma" vertex="1">
+          <mxGeometry height="80" width="135" x="548.75" y="432.5" as="geometry" />
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-5" edge="1" parent="1" source="T8GWPufGv7GLpf6FNoHR-12" style="endArrow=none;html=1;rounded=0;align=center;endFill=0;" target="T8GWPufGv7GLpf6FNoHR-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="693" y="262.5" as="sourcePoint" />
+            <mxPoint x="613" y="232.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-6" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Intermediario" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-7" edge="1" parent="1" source="T8GWPufGv7GLpf6FNoHR-6" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="T8GWPufGv7GLpf6FNoHR-1" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="200" as="sourcePoint" />
+            <mxPoint x="170" y="282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-10" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Centro di&lt;br&gt;Certificazione" vertex="1">
+          <mxGeometry height="60" width="30" x="660" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-11" edge="1" parent="1" source="T8GWPufGv7GLpf6FNoHR-10" style="endArrow=none;html=1;rounded=0;align=center;endFill=0;" target="T8GWPufGv7GLpf6FNoHR-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="660" y="273.5" as="sourcePoint" />
+            <mxPoint x="700" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-12" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Assistente all&#39;uso" vertex="1">
+          <mxGeometry height="60" width="30" x="340" y="442.5" as="geometry" />
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-13" edge="1" parent="1" source="T8GWPufGv7GLpf6FNoHR-6" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="T8GWPufGv7GLpf6FNoHR-12" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="311" as="sourcePoint" />
+            <mxPoint x="490" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-16" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Gestore delle identità&lt;div&gt;e onboarding&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="340" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Registrare e verificare le identità degli attori" vertex="1">
+          <mxGeometry height="95" width="147.5" x="542.5" y="252.5" as="geometry" />
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-18" edge="1" parent="1" source="T8GWPufGv7GLpf6FNoHR-17" style="endArrow=none;html=1;rounded=0;align=center;strokeColor=default;endFill=0;" target="T8GWPufGv7GLpf6FNoHR-16" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="323" y="432.5" as="sourcePoint" />
+            <mxPoint x="243" y="402.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-19" edge="1" parent="1" source="T8GWPufGv7GLpf6FNoHR-6" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="T8GWPufGv7GLpf6FNoHR-16" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="260" as="sourcePoint" />
+            <mxPoint x="300" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-20" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Azienda&lt;br&gt;di Tuning" vertex="1">
+          <mxGeometry height="60" width="30" x="560" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-21" edge="1" parent="1" source="T8GWPufGv7GLpf6FNoHR-20" style="endArrow=none;html=1;rounded=0;align=center;endFill=0;" target="T8GWPufGv7GLpf6FNoHR-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="665" y="407.5" as="sourcePoint" />
+            <mxPoint x="480" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-22" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Cliente Privato" vertex="1">
+          <mxGeometry height="60" width="30" x="750" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-23" edge="1" parent="1" source="T8GWPufGv7GLpf6FNoHR-22" style="endArrow=none;html=1;rounded=0;align=center;endFill=0;" target="T8GWPufGv7GLpf6FNoHR-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="865" y="187.5" as="sourcePoint" />
+            <mxPoint x="680" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-24" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Concessionaria" vertex="1">
+          <mxGeometry height="60" width="30" x="460" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="T8GWPufGv7GLpf6FNoHR-25" edge="1" parent="1" source="T8GWPufGv7GLpf6FNoHR-24" style="endArrow=none;html=1;rounded=0;align=center;endFill=0;" target="T8GWPufGv7GLpf6FNoHR-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="525" y="387.5" as="sourcePoint" />
+            <mxPoint x="340" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,91 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="aQI7MQ8KoZMRfN4SUSZg">
+    <mxGraphModel dx="1130" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NAQLJiKIV7ZUMjGDsR1z-1" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Ispettore / Collaudatore" vertex="1">
+          <mxGeometry height="60" width="30" x="260" y="287.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NAQLJiKIV7ZUMjGDsR1z-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ispezionare e collaudare&lt;br&gt;le modifiche" vertex="1">
+          <mxGeometry height="95" width="147.5" x="382.5" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="NAQLJiKIV7ZUMjGDsR1z-3" edge="1" parent="1" source="NAQLJiKIV7ZUMjGDsR1z-2" style="endArrow=none;html=1;rounded=0;align=center;strokeColor=default;endFill=0;" target="NAQLJiKIV7ZUMjGDsR1z-1" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="353" y="482.5" as="sourcePoint" />
+            <mxPoint x="273" y="452.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAQLJiKIV7ZUMjGDsR1z-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Consultare lo storico del DMVP" vertex="1">
+          <mxGeometry height="75" width="130" x="670" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="NAQLJiKIV7ZUMjGDsR1z-5" edge="1" parent="1" source="NAQLJiKIV7ZUMjGDsR1z-2" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="NAQLJiKIV7ZUMjGDsR1z-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="383" y="542.5" as="sourcePoint" />
+            <mxPoint x="303" y="512.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAQLJiKIV7ZUMjGDsR1z-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Rilasciare e registrare&lt;br&gt;la certificazione" vertex="1">
+          <mxGeometry height="80" width="135" x="372.5" y="432.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NAQLJiKIV7ZUMjGDsR1z-7" edge="1" parent="1" source="NAQLJiKIV7ZUMjGDsR1z-16" style="endArrow=none;html=1;rounded=0;align=center;endFill=0;" target="NAQLJiKIV7ZUMjGDsR1z-6" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="713" y="252.5" as="sourcePoint" />
+            <mxPoint x="633" y="222.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAQLJiKIV7ZUMjGDsR1z-9" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Centro di&lt;br&gt;Certificazione" vertex="1">
+          <mxGeometry height="60" width="30" x="110" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="NAQLJiKIV7ZUMjGDsR1z-10" edge="1" parent="1" source="NAQLJiKIV7ZUMjGDsR1z-9" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="NAQLJiKIV7ZUMjGDsR1z-1" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="390" as="sourcePoint" />
+            <mxPoint x="200" y="472" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAQLJiKIV7ZUMjGDsR1z-11" edge="1" parent="1" source="NAQLJiKIV7ZUMjGDsR1z-6" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="NAQLJiKIV7ZUMjGDsR1z-12" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="600" y="182.5" as="sourcePoint" />
+            <mxPoint x="600" y="282.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAQLJiKIV7ZUMjGDsR1z-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Registrare il certificato&lt;br&gt;su blockchain" vertex="1">
+          <mxGeometry height="85" width="140" x="650" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="NAQLJiKIV7ZUMjGDsR1z-13" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Intermediario" vertex="1">
+          <mxGeometry height="60" width="30" x="705" y="562.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NAQLJiKIV7ZUMjGDsR1z-14" edge="1" parent="1" source="NAQLJiKIV7ZUMjGDsR1z-13" style="endArrow=none;html=1;rounded=0;align=center;endFill=0;" target="NAQLJiKIV7ZUMjGDsR1z-12" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="680" y="263.5" as="sourcePoint" />
+            <mxPoint x="801" y="242.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAQLJiKIV7ZUMjGDsR1z-16" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Emittente della certificazione" vertex="1">
+          <mxGeometry height="60" width="30" x="260" y="442.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NAQLJiKIV7ZUMjGDsR1z-17" edge="1" parent="1" source="NAQLJiKIV7ZUMjGDsR1z-9" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="NAQLJiKIV7ZUMjGDsR1z-16" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="501" as="sourcePoint" />
+            <mxPoint x="520" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAQLJiKIV7ZUMjGDsR1z-18" edge="1" parent="1" source="NAQLJiKIV7ZUMjGDsR1z-19" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="NAQLJiKIV7ZUMjGDsR1z-2" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="760" y="200" as="sourcePoint" />
+            <mxPoint x="1020" y="302.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAQLJiKIV7ZUMjGDsR1z-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Segnalare non&lt;br&gt;conformità" vertex="1">
+          <mxGeometry height="75" width="130" x="540" y="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,255 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="L_Mhp61oDUHRQ_Huo-5y">
+    <mxGraphModel dx="-1424" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o5YofrH1DckGZ58XZG7F-47" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Intermediario" vertex="1">
+          <mxGeometry height="60" width="30" x="4150" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-48" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Amministratore &lt;br&gt;della piattaforma" vertex="1">
+          <mxGeometry height="60" width="30" x="4370" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-49" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-47" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="o5YofrH1DckGZ58XZG7F-48" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3724" y="887" as="sourcePoint" />
+            <mxPoint x="3604" y="1007" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-50" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Gestore delle identità &lt;br&gt;e onboarding" vertex="1">
+          <mxGeometry height="60" width="30" x="4360" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-51" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-47" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="o5YofrH1DckGZ58XZG7F-50" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3604" y="1010" as="sourcePoint" />
+            <mxPoint x="3614" y="1122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-52" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Assistente all&#39;uso" vertex="1">
+          <mxGeometry height="60" width="30" x="4260" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-53" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-47" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="o5YofrH1DckGZ58XZG7F-52" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3664" y="1160" as="sourcePoint" />
+            <mxPoint x="3674" y="1272" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-54" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Concessionaria" vertex="1">
+          <mxGeometry height="60" width="30" x="4150" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-55" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Responsabile&lt;br&gt;della consegna" vertex="1">
+          <mxGeometry height="60" width="30" x="4370" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-56" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-54" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="o5YofrH1DckGZ58XZG7F-55" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4310" y="367" as="sourcePoint" />
+            <mxPoint x="4190" y="487" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-57" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Registrante del&lt;br&gt;veicolo base" vertex="1">
+          <mxGeometry height="60" width="30" x="4350" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-58" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-54" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="o5YofrH1DckGZ58XZG7F-57" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4310" y="305" as="sourcePoint" />
+            <mxPoint x="4320" y="417" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-59" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Azienda di Tuning" vertex="1">
+          <mxGeometry height="60" width="30" x="4090" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-60" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Esecutore della modifica" vertex="1">
+          <mxGeometry height="60" width="30" x="3940" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-61" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-59" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="o5YofrH1DckGZ58XZG7F-60" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4520" y="702" as="sourcePoint" />
+            <mxPoint x="4400" y="822" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-62" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Centro di &lt;br&gt;Certificazione" vertex="1">
+          <mxGeometry height="60" width="30" x="4020" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-63" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Ispettore/Collaudatore" vertex="1">
+          <mxGeometry height="60" width="30" x="3830" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-64" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-62" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="o5YofrH1DckGZ58XZG7F-63" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4340" y="477" as="sourcePoint" />
+            <mxPoint x="4220" y="597" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-65" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Emittente della certificazione" vertex="1">
+          <mxGeometry height="60" width="30" x="3810" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-66" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-62" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="o5YofrH1DckGZ58XZG7F-65" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4310" y="615" as="sourcePoint" />
+            <mxPoint x="4320" y="727" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-67" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Cliente Privato&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="4020" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-68" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Consultatore dello storico" vertex="1">
+          <mxGeometry height="60" width="30" x="3810" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-69" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-67" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="o5YofrH1DckGZ58XZG7F-68" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3420" y="809.5" as="sourcePoint" />
+            <mxPoint x="3300" y="929.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-70" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Acquirente/Nuovo proprietario" vertex="1">
+          <mxGeometry height="60" width="30" x="3810" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-71" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-67" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="o5YofrH1DckGZ58XZG7F-70" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3300" y="937.5" as="sourcePoint" />
+            <mxPoint x="3310" y="1049.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-72" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Collaudo delle modifiche" vertex="1">
+          <mxGeometry height="140" width="240" x="3590" y="20" as="geometry">
+            <mxRectangle height="30" width="140" x="180" y="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-73" parent="o5YofrH1DckGZ58XZG7F-72" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Verificare la conformità&lt;br&gt;tecnica e normativa&lt;br&gt;degli interventi&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="35" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-74" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Emissione della certificazione" vertex="1">
+          <mxGeometry height="140" width="240" x="3440" y="210" as="geometry">
+            <mxRectangle height="30" width="140" x="180" y="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-75" parent="o5YofrH1DckGZ58XZG7F-74" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Rilasciare il certificato di conformità&lt;br&gt;e registrarlo in modo immutabile&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="240" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-76" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Consultazione dello storico" vertex="1">
+          <mxGeometry height="140" width="240" x="3410" y="435" as="geometry">
+            <mxRectangle height="30" width="140" x="180" y="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-77" parent="o5YofrH1DckGZ58XZG7F-76" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Consultare in qualsiasi momento&lt;br&gt;lo storico immutabile del veicolo&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="230" x="5" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-78" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Acquisizione del DMVP" vertex="1">
+          <mxGeometry height="140" width="240" x="3430" y="645" as="geometry">
+            <mxRectangle height="30" width="140" x="180" y="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-79" parent="o5YofrH1DckGZ58XZG7F-78" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Accettare il veicolo e ricevere&lt;br&gt;la proprietà del&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;passaporto digitale&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="15" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-80" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Registrazione delle modifiche" vertex="1">
+          <mxGeometry height="140" width="240" x="3740" y="810" as="geometry">
+            <mxRectangle height="30" width="140" x="180" y="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-81" parent="o5YofrH1DckGZ58XZG7F-80" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Eseguire le modifiche&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;e caricarne la documentazione&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;in modo permamente&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="240" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-82" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Supporto agli utenti" vertex="1">
+          <mxGeometry height="140" width="250" x="4255" y="810" as="geometry">
+            <mxRectangle height="30" width="140" x="180" y="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-83" parent="o5YofrH1DckGZ58XZG7F-82" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Fornire assistenza tecnica&lt;br&gt;&amp;nbsp;e operativa agli utenti &lt;br&gt;della piattaforma&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="35" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-84" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Inizializzazione del DMVP" vertex="1">
+          <mxGeometry height="140" width="240" x="4380" y="20" as="geometry">
+            <mxRectangle height="30" width="140" x="180" y="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-85" parent="o5YofrH1DckGZ58XZG7F-84" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Registrare il veicolo base e la &lt;br&gt;richiesta di tuning, creando&lt;br&gt;il passaporto associato al telaio&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="10" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-86" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Consegna del veicolo" vertex="1">
+          <mxGeometry height="140" width="240" x="4520" y="210" as="geometry">
+            <mxRectangle height="30" width="140" x="180" y="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-87" parent="o5YofrH1DckGZ58XZG7F-86" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Consegnare il veicolo &lt;br&gt;omologato e registrare la &lt;br&gt;consegna sul DMVP&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="30" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-88" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Amministrazione della piattaforma" vertex="1">
+          <mxGeometry height="140" width="240" x="4530" y="405" as="geometry">
+            <mxRectangle height="30" width="140" x="180" y="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-89" parent="o5YofrH1DckGZ58XZG7F-88" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Garantire funzionamento, &lt;br&gt;configurazione e sicurezza della &lt;br&gt;piattaforma&amp;nbsp;blockchain&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="10" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-90" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Onboarding degli utenti business" vertex="1">
+          <mxGeometry height="140" width="250" x="4520" y="600" as="geometry">
+            <mxRectangle height="30" width="140" x="180" y="660" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-91" parent="o5YofrH1DckGZ58XZG7F-90" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Registrare e verificare le identità degli&lt;br&gt;attori business, abilitandoli&lt;br&gt;all&#39;uso della piattaforma&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="260" x="-5" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-92" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-63" style="endArrow=classic;html=1;rounded=0;" target="o5YofrH1DckGZ58XZG7F-72" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3870" y="180" as="sourcePoint" />
+            <mxPoint x="4055" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-93" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-65" style="endArrow=classic;html=1;rounded=0;" target="o5YofrH1DckGZ58XZG7F-74" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3803" y="357" as="sourcePoint" />
+            <mxPoint x="3740" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-94" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-68" style="endArrow=classic;html=1;rounded=0;" target="o5YofrH1DckGZ58XZG7F-76" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3793" y="547" as="sourcePoint" />
+            <mxPoint x="3730" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-95" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-70" style="endArrow=classic;html=1;rounded=0;" target="o5YofrH1DckGZ58XZG7F-78" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3843" y="777" as="sourcePoint" />
+            <mxPoint x="3780" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-96" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-60" style="endArrow=classic;html=1;rounded=0;" target="o5YofrH1DckGZ58XZG7F-80" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3943" y="837" as="sourcePoint" />
+            <mxPoint x="3880" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-97" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-52" style="endArrow=classic;html=1;rounded=0;" target="o5YofrH1DckGZ58XZG7F-82" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4323" y="847" as="sourcePoint" />
+            <mxPoint x="4260" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-98" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-50" style="endArrow=classic;html=1;rounded=0;" target="o5YofrH1DckGZ58XZG7F-90" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4503" y="797" as="sourcePoint" />
+            <mxPoint x="4440" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-99" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-48" style="endArrow=classic;html=1;rounded=0;" target="o5YofrH1DckGZ58XZG7F-88" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4543" y="627" as="sourcePoint" />
+            <mxPoint x="4480" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-100" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-55" style="endArrow=classic;html=1;rounded=0;" target="o5YofrH1DckGZ58XZG7F-86" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4533" y="437" as="sourcePoint" />
+            <mxPoint x="4470" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o5YofrH1DckGZ58XZG7F-101" edge="1" parent="1" source="o5YofrH1DckGZ58XZG7F-57" style="endArrow=classic;html=1;rounded=0;" target="o5YofrH1DckGZ58XZG7F-84" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="4283" y="267" as="sourcePoint" />
+            <mxPoint x="4220" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,16 @@
+# Backup e file temporanei di draw.io
+*.bkp
+*.dtmp
+
+# Artefatti di compilazione LaTeX (il PDF finale resta versionato)
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.lof
+*.lot
+*.bbl
+*.blg

@@ -1,0 +1,192 @@
+\documentclass[border=10pt]{standalone}
+\usepackage[utf8]{inputenc}
+\renewcommand{\rmdefault}{phv}
+\renewcommand{\sfdefault}{phv}
+\usepackage{tikz}
+
+\begin{document}
+
+\def\layersep{9.7em}
+\def\layerwidth{75em}
+
+\begin{tikzpicture}[
+    % Define block parameters (mostly shape)
+    bloc/.style={
+        rectangle, rounded corners,
+        draw=black!30, very thick, inner sep=0,
+    },
+    invisible/.style={
+        rectangle, draw=none,
+        inner sep=0,
+    },
+    bloc1/.style={
+        bloc,
+        text width = \layerwidth/5*0.95,
+        minimum width = \layerwidth/5,
+        minimum height= 4*\layersep
+    },
+    bloc2/.style={
+        bloc,
+        text width = \layerwidth/5*0.95,
+        minimum width=\layerwidth/5,
+        minimum height=2*\layersep
+    },
+    bloc3/.style={
+        bloc,
+        text width=\layerwidth/2*0.95,
+        minimum width=\layerwidth/2,
+        minimum height=\layersep
+    },
+    invisible_bloc1/.style={
+        invisible,
+        text width=\layerwidth/5*0.95,
+        minimum width=\layerwidth/5,
+        minimum height=\layersep
+    },
+    invisible_bloc2/.style={
+        invisible,
+        text width=\layerwidth/5*0.95,
+        minimum width=\layerwidth/5,
+        minimum height=3*\layersep
+    },
+    title/.style={
+        anchor=north west,
+        color=black!50,
+        font=\bfseries
+    },
+    subtitle/.style={
+        anchor=north west,
+        color=black!50,
+        font=\bfseries
+    },
+    ]
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%
+    %%%% DRAW THE CANVAS %%%%
+    %%%%%%%%%%%%%%%%%%%%%%%%%
+
+    % first the block, then the title
+
+    % 1. KEY PARTNERS
+    \node[bloc1] (b1) at (0*\layerwidth/10,4*\layersep) {};
+    \node[title] at (b1.north west) {\underline{Partner Chiave}};
+
+    \node[invisible_bloc2] (b11) at (0*\layerwidth/10,4.45*\layersep) {
+    {\footnotesize
+    1. Motorizzazione Civile (MCTC) - omologazione modifiche\\[5pt]
+    2. Casa automobilistica — dati ufficiali del veicolo base\\[5pt]
+    3. Fornitori di componenti — provenienza certificata dei pezzi\\[5pt]
+    4. Azienda di spedizione — logistica e consegna\\[5pt]
+    5. Provider infrastruttura blockchain (Hyperledger Fabric)\\[5pt]
+    6. Associazione Blockchain Italia — diffusione e credibilità
+    }
+    };
+
+    % 4. KEY ACTIVITIES
+    \node[bloc2] (b2) at (2*\layerwidth/10,5*\layersep) {
+    {\footnotesize
+    1. Sviluppo e manutenzione della piattaforma DMVP (ancoraggio hash on-chain + database off-chain)\\[5pt]
+    2. Modulo di certificazione e verifica del DMVP\\[5pt]
+    3. Onboarding e verifica dell'identità degli attori\\[5pt]
+    4. Governance della rete permissioned e gestione degli smart contract\\[5pt]
+    5. Presidio della conformità legale e normativa\\[5pt]
+    6. Supporto, formazione e verticalizzazione
+    }
+    };
+    \node[title] at (b2.north west) {\underline{Attività Chiave}};
+
+    % 8. KEY RESOURCES
+    \node[bloc2] (b3) at (2*\layerwidth/10,3*\layersep) {
+    {\footnotesize
+    1. Infrastruttura blockchain permissioned (Hyperledger Fabric): nodi, server, cloud\\[3pt]
+    2. Database off-chain e smart contract per l'automazione\\[5pt]
+    3. Team tecnico specializzato (software e blockchain)\\[5pt]
+    4. Know-how normativo automotive; confronto con professionisti del tuning\\[5pt]
+    5. Consulenti per l'assistenza clienti
+    }
+    };
+    \node[title] at (b3.north west) {\underline{Risorse Chiave}};
+
+    % 7. COST STRUCTURE
+    \node[bloc3] (b4) at (1.5*\layerwidth/10,1.5*\layersep) {
+    {\footnotesize
+    1. Sviluppo iniziale della piattaforma (una tantum) \quad
+    2. manutenzione ed evoluzione \quad
+    3. infrastruttura blockchain e cloud (nodi permissioned) \quad
+    4. assistenza clienti e onboarding \quad
+    5. presidio normativo/legale e formazione del personale tecnico
+    }
+    };
+    \node[title] at (b4.north west) {\underline{Struttura dei costi}};
+
+    % 6. REVENUE STREAMS
+    \node[bloc3] (b5) at (6.5*\layerwidth/10,1.5*\layersep) {
+    {\footnotesize
+    1. Abbonamento SaaS per concessionarie, aziende di tuning e intermediario \quad
+    2. fee per transazione (ogni DMVP creato e ogni certificazione on-chain, a volume) \quad
+    3. licenza premium (analisi avanzate, reportistica, export certificati PDF validi) \quad
+    4. vendita di verticalizzazioni \quad
+    5. marketplace di servizi aggiuntivi
+    }
+    };
+    \node[title] at (b5.north west) {\underline{Flussi di ricavi}};
+
+    % 3. VALUE PROPOSITIONS
+    \node[bloc1] (b8) at (4*\layerwidth/10,4*\layersep) {};
+    \node[title] at (b8.north west) {\underline{Valore Offerto}};
+
+    \node[invisible_bloc2] (b81) at (4*\layerwidth/10,4.45*\layersep) {
+    {\footnotesize
+    \textbf{Intermediario}\\
+    piattaforma blockchain permissioned verticalizzabile per l'automotive tuning; gestione identità e onboarding affidabile degli attori.\\[5pt]
+    \textbf{Concessionaria}\\
+    inizializzazione del DMVP e registrazione del veicolo; storico tracciabile che accresce il valore alla rivendita e riduce il rischio legale per non conformità.\\[5pt]
+    \textbf{Azienda di Tuning}\\
+    registrazione immutabile delle modifiche, come attestazione digitale della qualità del proprio operato e tutela da contestazioni.\\[5pt]
+    \textbf{Centro di Certificazione}\\
+    accesso a dati verificabili per il collaudo; registrazione immutabile dei certificati, verificabili da terzi.\\[5pt]
+    \textbf{Cliente Privato}\\
+    verifica dell'autenticità e consultazione dello storico completo; DMVP trasferibile alla rivendita con garanzia legale.
+    }
+    };
+
+    % 9. CUSTOMER RELATIONSHIP
+    \node[bloc2] (b9) at (6*\layerwidth/10,5*\layersep) {
+    {\footnotesize
+    \textbf{B2B:} contratti SaaS con SLA, onboarding assistito, supporto tecnico dedicato\\[5pt]
+    \textbf{B2C:} self-service via app, notifiche a ogni aggiornamento del DMVP\\[5pt]
+    \textbf{Automatizzato:} interazioni tra attori gestite dagli smart contract\\[5pt]
+    Portale self-service per la gestione autonoma delle richieste
+    }
+    };
+    \node[title] at (b9.north west) {\underline{Relazioni con Clienti}};
+
+    % 5. CHANNELS
+    \node[bloc2] (b10) at (6*\layerwidth/10,3*\layersep) {
+    {\footnotesize
+    Portale web B2B (concessionarie, tuning, certificatori, intermediario)\\[5pt]
+    App mobile B2C per consultazione DMVP e notifiche\\[5pt]
+    QR code sul veicolo per l'accesso immediato allo storico\\[5pt]
+    API di integrazione con i sistemi gestionali dei partner\\[5pt]
+    }
+    };
+    \node[title] at (b10.north west) {\underline{Canali}};
+
+
+    % 2. CUSTOMER SEGMENTS
+    \node[bloc1] (b11) at (8*\layerwidth/10,4*\layersep) {};
+    \node[title] at (b11.north west) {\underline{Segmenti di Clientela}};
+
+    \node[invisible_bloc2] (b111) at (8*\layerwidth/10,4.45*\layersep) {
+    {\footnotesize
+    $\cdot$ \textbf{Intermediario}\\[6pt]
+    $\cdot$ \textbf{Concessionaria}\\[6pt]
+    $\cdot$ \textbf{Azienda di Tuning}\\[6pt]
+    $\cdot$ \textbf{Centro di Certificazione}\\[6pt]
+    $\cdot$ \textbf{Cliente Privato}
+    }
+    };
+
+\end{tikzpicture}
+
+\end{document}

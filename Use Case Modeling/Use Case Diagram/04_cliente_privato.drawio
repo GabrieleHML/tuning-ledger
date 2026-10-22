@@ -1,0 +1,71 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="O01fYt2TemZfXbKMJbfu">
+    <mxGraphModel dx="1365" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BSjwmSwczsPzgz1B_oeR-1" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Consultatore&lt;br&gt;dello storico" vertex="1">
+          <mxGeometry height="60" width="30" x="230" y="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BSjwmSwczsPzgz1B_oeR-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Consultare lo storico&lt;br&gt;immutabile del veicolo" vertex="1">
+          <mxGeometry height="95" width="147.5" x="352.5" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BSjwmSwczsPzgz1B_oeR-3" edge="1" parent="1" source="BSjwmSwczsPzgz1B_oeR-2" style="endArrow=none;html=1;rounded=0;align=center;strokeColor=default;endFill=0;" target="BSjwmSwczsPzgz1B_oeR-1" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="323" y="292.5" as="sourcePoint" />
+            <mxPoint x="243" y="262.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BSjwmSwczsPzgz1B_oeR-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Accettare il veicolo&lt;br&gt;e ricevere il DMVP" vertex="1">
+          <mxGeometry height="80" width="135" x="342.5" y="242.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BSjwmSwczsPzgz1B_oeR-7" edge="1" parent="1" source="BSjwmSwczsPzgz1B_oeR-14" style="endArrow=none;html=1;rounded=0;align=center;endFill=0;" target="BSjwmSwczsPzgz1B_oeR-6" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="683" y="62.5" as="sourcePoint" />
+            <mxPoint x="603" y="32.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BSjwmSwczsPzgz1B_oeR-8" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Cliente&lt;br&gt;Privato" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BSjwmSwczsPzgz1B_oeR-9" edge="1" parent="1" source="BSjwmSwczsPzgz1B_oeR-8" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="BSjwmSwczsPzgz1B_oeR-1" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="200" as="sourcePoint" />
+            <mxPoint x="170" y="282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BSjwmSwczsPzgz1B_oeR-10" edge="1" parent="1" source="BSjwmSwczsPzgz1B_oeR-6" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="BSjwmSwczsPzgz1B_oeR-11" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="570" y="-7.5" as="sourcePoint" />
+            <mxPoint x="570" y="92.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BSjwmSwczsPzgz1B_oeR-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Trasferimento&lt;br&gt;proprietà DMVP" vertex="1">
+          <mxGeometry height="85" width="140" x="620" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="BSjwmSwczsPzgz1B_oeR-12" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillColor=#FFFF00;" value="Intermediario" vertex="1">
+          <mxGeometry height="60" width="30" x="675" y="372.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BSjwmSwczsPzgz1B_oeR-13" edge="1" parent="1" source="BSjwmSwczsPzgz1B_oeR-12" style="endArrow=none;html=1;rounded=0;align=center;endFill=0;" target="BSjwmSwczsPzgz1B_oeR-11" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0411" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="650" y="73.5" as="sourcePoint" />
+            <mxPoint x="771" y="52.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BSjwmSwczsPzgz1B_oeR-14" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=1;fillStyle=auto;strokeColor=#000000;fillColor=#00FFFF;" value="Acquirente /&lt;br&gt;nuovo proprietario" vertex="1">
+          <mxGeometry height="60" width="30" x="230" y="252.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BSjwmSwczsPzgz1B_oeR-15" edge="1" parent="1" source="BSjwmSwczsPzgz1B_oeR-8" style="endArrow=classic;html=1;rounded=0;dashed=1;align=center;" target="BSjwmSwczsPzgz1B_oeR-14" value="&amp;lt;&amp;lt;plays&amp;gt;&amp;gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="311" as="sourcePoint" />
+            <mxPoint x="490" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

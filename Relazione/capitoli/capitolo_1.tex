@@ -1,0 +1,79 @@
+\chapter{Sommario e Introduzione}
+
+\section{Descrizione dell'Idea Progettuale}
+
+L'obiettivo del progetto è realizzare Tuning Ledger, una piattaforma basata su tecnologia blockchain per la registrazione, la certificazione e la consultazione delle modifiche apportate a un veicolo dopo l'immatricolazione, garantendo trasparenza, autenticità e verificabilità delle informazioni lungo l'intero ciclo di vita del mezzo.
+
+\subsection*{Criticit\`a}
+
+Il settore della personalizzazione dei veicoli --- interventi sulla meccanica, sull'assetto, sull'impianto frenante o sull'estetica --- ha assunto negli ultimi anni una rilevanza economica crescente, alla quale non ha per\`o corrisposto un'evoluzione degli strumenti di documentazione. Le modifiche continuano a essere attestate attraverso fatture, dichiarazioni di conformit\`a e annotazioni sul libretto di circolazione: strumenti eterogenei, prodotti da soggetti diversi, facilmente smarribili e privi di qualunque garanzia di integrit\`a nel tempo.
+
+Da questa frammentazione documentale discendono criticit\`a che investono l'intera filiera:
+
+\begin{enumerate}
+    \item \textbf{Asimmetria informativa}: al momento della rivendita l'acquirente non dispone di alcuno strumento indipendente per accertare quali lavorazioni siano state realmente eseguite, da chi, con quali componenti e nel rispetto di quali requisiti di omologazione.
+    \item \textbf{Vulnerabilit\`a della documentazione}: certificati e schede tecniche in formato cartaceo o digitale non protetto sono esposti ad alterazione e falsificazione, senza che alcun meccanismo impedisca tecnicamente la retrodatazione di un intervento.
+    \item \textbf{Rischio legale e onere di verifica}: la Concessionaria assume un rischio nel commercializzare un veicolo modificato di cui non pu\`o dimostrare la piena conformit\`a, mentre il Centro di Certificazione \`e costretto a ricostruire manualmente la storia degli interventi prima di poter procedere al collaudo.
+    \item \textbf{Perdita di valore del mezzo}: chi ha investito in personalizzazioni eseguite a regola d'arte non \`e in grado di dimostrarne la qualit\`a e la regolarit\`a, e l'incertezza si traduce in una svalutazione sul mercato dell'usato.
+\end{enumerate}
+
+\subsection*{Tecnologia e funzionalit\`a}
+
+La risposta a tali criticit\`a \`e il \textbf{Digital Modified Vehicle Passport} (DMVP): un passaporto digitale immutabile, associato univocamente al numero di telaio, che accompagna il veicolo lungo tutto il suo ciclo di vita registrando in modo verificabile ogni modifica e ogni certificazione. Il DMVP attesta in particolare:
+
+\begin{enumerate}
+    \item le modifiche funzionali ed estetiche eseguite dall'azienda di tuning, con i relativi componenti installati;
+    \item l'esito delle verifiche di qualit\`a e di conformit\`a normativa effettuate dal centro di certificazione.
+\end{enumerate}
+
+Dal punto di vista tecnologico la piattaforma adotta una \textbf{blockchain permissioned}, che consente di bilanciare decentralizzazione e controllo riservando l'accesso ai soli partecipanti autorizzati e definendo ruoli e responsabilit\`a distinti per officine, concessionarie ed enti certificatori. L'architettura \`e di tipo \textbf{ibrido}: i dati descrittivi e la documentazione voluminosa risiedono in un database \textit{off-chain}, mentre sulla blockchain viene ancorata la sola impronta crittografica (\textit{hash}) che ne garantisce l'integrit\`a. Tale impostazione preserva l'immutabilit\`a del dato contenendo al contempo i costi operativi e i limiti di scalabilit\`a tipici delle soluzioni interamente \textit{on-chain}.
+
+Gli attori dello scenario --- Cliente Privato, Concessionaria, Azienda di Tuning e Centro di Certificazione --- interagiscono con il sistema attraverso un \textbf{Intermediario}, soggetto che sviluppa e gestisce la piattaforma e che ne costituisce il cliente primario. L'impiego di \textbf{smart contract} permette inoltre di automatizzare la validazione della conformit\`a delle modifiche, riducendo l'intervento manuale e il rischio di irregolarit\`a.
+
+\subsection*{Benefici}
+
+L'adozione della piattaforma genera valore in modo differenziato lungo tutta la catena post-vendita:
+
+\begin{itemize}
+    \item il \textbf{Cliente Privato} ottiene uno storico certificato e trasferibile del proprio veicolo, che ne accresce il valore al momento della rivendita;
+    \item la \textbf{Concessionaria} differenzia la propria offerta con un servizio premium e riduce il rischio legale connesso alla vendita di veicoli modificati;
+    \item l'\textbf{Azienda di Tuning} attesta digitalmente la qualit\`a del proprio lavoro, tutelandosi da contestazioni infondate;
+    \item il \textbf{Centro di Certificazione} dispone di dati gi\`a strutturati e verificabili, riducendo i tempi di collaudo;
+    \item gli \textbf{enti di controllo} possono verificare la conformit\`a del mezzo in modo rapido e non ambiguo.
+\end{itemize}
+
+\subsection*{Riferimenti nel settore}
+
+L'impiego di registri distribuiti per la tracciabilit\`a del ciclo di vita dei veicoli non costituisce una prospettiva puramente teorica. Piattaforme \textit{permissioned} come \textbf{Hyperledger Fabric} risultano gi\`a adottate in ambito automotive per la registrazione di manutenzioni, restauri e trasferimenti di propriet\`a, con risultati documentati in termini di trasparenza e di accresciuto valore di mercato dei mezzi~\cite{hyperledger,murta2024}. Parallelamente sono stati proposti approcci basati su blockchain pubbliche che rappresentano il veicolo mediante la \textbf{tokenizzazione} tramite NFT~\cite{nftvehicle}, i quali confermano la fattibilit\`a tecnica del modello pur presentando limiti di costo e di scalabilit\`a. L'idea progettuale si colloca in questo solco, applicando al segmento specifico del tuning una soluzione tecnologica gi\`a validata in contesti affini.
+
+\section{Organizzazione dell'Idea Progettuale in Capitoli}
+
+Il presente documento \`e articolato in otto capitoli, ciascuno dedicato a un aspetto specifico dello sviluppo della piattaforma, secondo un percorso che muove dall'analisi del contesto e si conclude con la valutazione economica dell'iniziativa. Di seguito \`e fornita una panoramica dei contenuti trattati.
+
+\subsection*{Capitolo 2 --- Analisi del Contesto}
+
+Il capitolo descrive l'ambiente in cui la piattaforma si inserisce, illustrando le criticit\`a della filiera dell'automotive tuning e il ruolo che la tecnologia blockchain pu\`o assumere nel superarle. Il contesto viene quindi modellato con la metodologia \textbf{GOREM} attraverso lo \textit{Stakeholder Diagram}, che individua i soggetti coinvolti organizzandoli in categorie, il \textit{Softgoal Diagram}, che ne esplicita gli obiettivi non funzionali, e il \textit{Dependency Diagram}, che ne evidenzia le relazioni di rinforzo e di conflitto reciproco.
+
+\subsection*{Capitolo 3 --- Descrizione dello Scenario Specifico dell'Idea Progettuale}
+
+Il quadro ampio delineato nel capitolo precedente viene qui ristretto allo \textbf{scenario specifico}, individuando gli attori che interagiscono direttamente con la piattaforma. Vengono analizzate le tecnologie rilevanti e le soluzioni gi\`a disponibili sul mercato, motivando la scelta di una blockchain \textit{permissioned} in architettura ibrida. Segue la modellazione GOREM dello scenario --- \textit{Role}, \textit{Goal} e \textit{Goal Dependency Diagram} --- e la definizione del modello di business secondo il framework \textbf{Business Model Canvas}.
+
+\subsection*{Capitolo 4 --- Idea Progettuale: Modello degli Use-Case e dei Processi}
+
+Il capitolo entra nel merito operativo della piattaforma. I casi d'uso principali sono modellati in GOREM, mentre i processi fondamentali della filiera sono rappresentati con la notazione \textbf{BPMN}, sotto forma di coreografia tra i partecipanti. I diagrammi rendono esplicite le responsabilit\`a dei singoli attori e la distinzione tra la componente \textit{off-chain} e l'infrastruttura blockchain lungo l'intero ciclo di vita del DMVP.
+
+\subsection*{Capitolo 5 --- Analisi SWOT}
+
+Viene condotta una valutazione strategica dell'iniziativa attraverso l'esame sistematico di punti di forza, punti di debolezza, opportunit\`a e minacce, allo scopo di definire il posizionamento competitivo della piattaforma e di individuare le leve di mitigazione dei principali fattori di rischio. Il capitolo si chiude con una valutazione complessiva di merito sull'opportunit\`a di procedere allo sviluppo.
+
+\subsection*{Capitolo 6 --- Project Plan della Piattaforma}
+
+Il capitolo delinea il piano operativo del progetto, che copre un arco temporale di \textbf{sei anni} articolato in due fasi: un anno dedicato alla progettazione, allo sviluppo e al \textit{deployment} del sistema, seguito da cinque anni di esercizio e mantenimento. Vengono presentate l'architettura a componenti della piattaforma, gli ambienti e le tecnologie di sviluppo, la pianificazione temporale delle due fasi mediante diagrammi di \textbf{GANTT} e il riepilogo delle risorse umane impiegate, espresse in Ore-Persona e in Anni-Persona.
+
+\subsection*{Capitolo 7 --- Business Plan della Piattaforma dell'Idea Progettuale}
+
+Il capitolo analizza la sostenibilit\`a economica dell'iniziativa attraverso la stima dettagliata dei costi del personale, delle spese generali, degli oneri per il \textit{cloud computing} e della fiscalit\`a, distinguendo tra la Fase 1 di sviluppo e la Fase 2 di esercizio. La valutazione conclusiva individua il \textbf{Break Even Point} e il \textbf{ROI} dell'investimento, corredati dal grafico dell'evoluzione di costi, ricavi e risultato netto cumulato.
+
+\subsection*{Capitolo 8 --- Conclusioni}
+
+Il documento si chiude con un riepilogo del percorso svolto e dei risultati raggiunti, accompagnato da una riflessione sui possibili sviluppi futuri della piattaforma, tra i quali l'estensione del modello a segmenti contigui quali il \textit{retrofit} elettrico, i veicoli storici e l'allestimento di veicoli commerciali.

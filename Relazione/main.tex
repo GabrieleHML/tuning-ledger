@@ -1,0 +1,111 @@
+\documentclass[a4paper,12pt,oneside]{book}
+\linespread{1.5}
+\usepackage{geometry}
+\geometry{top=2cm,bottom=2.5cm,left=3.5cm,right=3.5cm} % Impostiamo il valore dei margini.
+\usepackage[utf8]{inputenc}
+\usepackage{tikz,pgf}
+\usepackage{amsfonts}
+\usepackage[italian]{babel} %% Abbiamo istruito LaTeX ad usare la lingua italiana.
+\usepackage{todonotes}
+\usepackage{subfig}
+\usepackage{fancyhdr}
+\setlength{\parindent}{0cm}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{csquotes}
+\usepackage{amsmath}
+\usepackage{numprint}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{tocbibind}
+\setcounter{tocdepth}{3}
+\usepackage[hidelinks]{hyperref}
+\usepackage{eurosym}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhf{}
+\fancyhead[L]{}
+\fancyfoot[C]{\thepage}
+
+\graphicspath{{imgs/}} %% cartella dalla quale ricavare le immagini %%
+
+\setlength {\marginparwidth }{2cm} 
+\pgfplotsset{compat=1.16}
+
+\newenvironment{dedication}
+  {\clearpage           % we want a new page
+   \thispagestyle{empty}% no header and footer
+   \vspace*{\stretch{1}}% some space at the top 
+   \itshape             % the text is in italics
+   \raggedleft          % flush to the right margin
+  }
+   {\par % end the paragraph
+   \vspace{\stretch{3}} % space at bottom is three times that at the top
+   \clearpage           % finish off the page
+  }
+  
+\begin{document}
+%% Frontespizio %%
+\begin{titlepage}
+    \begin{center}
+    \vspace*{0.2cm}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{imgs/logo.png}
+    \end{figure}
+        \vspace{5mm}
+%% Dipartimento %%
+    	\uppercase{\normalsize Dipartimento di Ingegneria Informatica, Modellistica, Elettronica e Sistemistica}\\
+    \end{center}
+    \begin{center}
+%% Corso di Laurea %%
+    	\large{ Corso di Laurea Ingegneria Informatica \\ Cybersecurity}\\
+        \vspace{3mm}
+        %%\large{\bf Progetto Sistemi Informativi }\\
+    	\vspace{10mm}
+%% Titolo della Tesi %%
+    {\LARGE{\bf Tuning Ledger: Piattaforma Blockchain per la Certificazione del Tuning Automobilistico }}\\	
+     \vspace{7mm}
+    \end{center}
+    
+    \vspace{25mm}
+    \noindent
+    \begin{minipage}[t]{0.47\textwidth}
+%% Relatore %%
+    	{\large{ \bf Prof. \\Domenico Saccà}}
+    	\vspace{12mm}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.4\textwidth}\raggedleft
+%% Candidato %%
+    	{\large{\bf Gabriele Hamil\\ Mat. 256747 \\ \bf Matteo Stricagnolo \\ Mat. 252309}}
+    \end{minipage}
+    
+    \vspace{30mm}
+    
+%% Anno Accademico %%
+    \centering{\large \uppercase{ Anno Accademico 25/26}}
+
+\end{titlepage}
+
+%% Corpo della tesi %%
+
+%%\chapter*{Sommario} %% In questa zona inseriamo l'abstract del nostro documento. %%
+%%Inserisci abstract: ...
+
+
+\tableofcontents
+\listoffigures
+\input{capitoli/capitolo_1}
+\input{capitoli/capitolo_2}
+\input{capitoli/capitolo_3}
+\input{capitoli/capitolo_4}
+\input{capitoli/capitolo_5}
+\input{capitoli/capitolo_6}
+\input{capitoli/capitolo_7}
+\input{capitoli/capitolo_8}
+\input{capitoli/bibliografia}
+\end{document}
