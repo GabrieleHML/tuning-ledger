@@ -1,75 +1,108 @@
-# Tuning Ledger
+<h1 align="center">Tuning Ledger</h1>
 
-Piattaforma basata su blockchain *permissioned* per la registrazione, la certificazione e la
-consultazione delle modifiche apportate a un veicolo dopo l'immatricolazione, attraverso il
-**DMVP** (*Digital Modified Vehicle Passport*): un passaporto digitale immutabile associato
-univocamente al numero di telaio.
+<p align="center">
+  <strong>A permissioned-blockchain system for recording and certifying post-registration vehicle modifications, through an immutable Digital Modified Vehicle Passport (DMVP).</strong><br>
+  A full requirements-analysis and business-planning study: from stakeholder modelling to the business plan.
+</p>
 
-Progetto per il corso di **Sistemi Informativi**, A.A. 2025/26 — Prof. Domenico Saccà
-Dipartimento di Ingegneria Informatica, Modellistica, Elettronica e Sistemistica
+<p align="center">
+  <img src="https://img.shields.io/badge/methodology-GOREM-5A6B7B" alt="GOREM">
+  <img src="https://img.shields.io/badge/modelling-BPMN%20%C2%B7%20Use%20Case-4C6B8A" alt="BPMN and Use Case">
+  <img src="https://img.shields.io/badge/report-LaTeX-008080?logo=latex&logoColor=white" alt="LaTeX report">
+  <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license">
+</p>
 
-Gabriele Hamil (mat. 256747) · Matteo Stricagnolo (mat. 252309)
+This is the project for the **Information Systems** course (*Sistemi Informativi*, University of Calabria,
+academic year 2025/26, Prof. Domenico Saccà), by Gabriele Hamil and Matteo Stricagnolo. It is a
+**requirements-analysis and feasibility study — there is no software implementation**: the deliverables are the
+models, the diagrams and the report. The full report, in Italian, is
+[`Relazione/main.pdf`](Relazione/main.pdf).
 
-## Struttura del repository
+## The idea
 
-Il lavoro segue la metodologia **GOREM** e procede dall'analisi del contesto fino alla
-valutazione economica. Ogni cartella di modellazione contiene i sorgenti `.drawio` e una
-sottocartella con i PNG esportati.
+A vehicle's modifications after registration (tuning) are today hard to track and trust. **Tuning Ledger**
+proposes a **permissioned blockchain** on which dealers, tuning workshops and certification bodies record each
+modification into a **DMVP** — a Digital Modified Vehicle Passport bound to the chassis number. Because the
+ledger is immutable and the certification authorities are explicit actors, the history of a vehicle becomes
+verifiable by buyers, insurers and public authorities.
 
-| Cartella | Contenuto | Export |
-|---|---|---|
-| `Context Modeling/` | Stakeholder, Softgoal e Softgoal Dependency Diagram; Business Model Canvas (`.tex`) | `exports/` |
-| `Scenario Modeling/` | Role, Goal e Goal Dependency Diagram | `exports/` |
-| `Use Case Modeling/Use Case Diagram/` | Use Case Diagram dei cinque attori | `exports/` |
-| `Use Case Modeling/Process Diagram/` | Processi in notazione BPMN | `exports/` |
-| `Project Plan/` | Architettura a componenti, deployment e gruppi di lavoro; `dati_project_plan.xlsx` | `export/` |
-| `Project Plan/gantt/` | Diagrammi di GANTT e prospetti di impegno per ruolo (`.xlsx`) | `gantt_exports/` |
-| `Relazione/` | Sorgenti LaTeX della relazione e PDF finale | — |
+Security and trust are therefore *design* concerns of the modelled system (immutability, roles of the
+certification authorities, data provenance), analysed in the report; this repository contains the analysis and
+models, not a running implementation.
 
-## Relazione
+## Method and deliverables
 
-I sorgenti stanno in `Relazione/`, un file per capitolo sotto `capitoli/`:
+The work follows the **GOREM** methodology and runs from context analysis to the economic evaluation. Every
+modelling folder contains the `.drawio` sources and an `exports/` subfolder with the exported PNGs.
 
-1. Sommario e Introduzione
-2. Analisi del Contesto — modellazione GOREM del contesto
-3. Descrizione dello Scenario Specifico — modellazione GOREM, Business Model Canvas
-4. Idea Progettuale — Use Case in GOREM e Processi in BPMN
-5. Analisi SWOT e valutazione dell'idea progettuale
-6. Project Plan — architettura, tecnologie, pianificazione delle due fasi
-7. Business Plan — costi, ricavi, Break Even Point e ROI
-8. Conclusioni
+| Area | Contents | Exports |
+| ---- | -------- | ------- |
+| `Context Modeling/` | Stakeholder, Softgoal and Softgoal-Dependency diagrams; Business Model Canvas (`.tex`) | `exports/` |
+| `Scenario Modeling/` | Role, Goal and Goal-Dependency diagrams | `exports/` |
+| `Use Case Modeling/Use Case Diagram/` | Use-case diagrams for the five actors | `exports/` |
+| `Use Case Modeling/Process Diagram/` | Processes in BPMN notation | `exports/` |
+| `Project Plan/` | Component and deployment architecture, work groups; `dati_project_plan.xlsx` | `export/` |
+| `Project Plan/gantt/` | Gantt charts and per-role effort sheets (`.xlsx`) | `gantt_exports/` |
+| `Relazione/` | LaTeX sources of the report and the final PDF | — |
+| `Presentazione/` | Final presentation (`.pptx`) | — |
 
-seguiti da `bibliografia.tex`. Gli articoli citati sono archiviati in `Relazione/riferimenti/`.
+## The report
 
-### Compilazione
+Sources are in [`Relazione/`](Relazione/), one file per chapter under `capitoli/`:
+
+1. Abstract and introduction
+2. Context analysis — GOREM context modelling
+3. Specific scenario — GOREM modelling, Business Model Canvas
+4. Project idea — use cases in GOREM and processes in BPMN
+5. SWOT analysis and evaluation of the idea
+6. Project plan — architecture, technologies, planning of the two phases
+7. Business plan — costs, revenues, break-even point and ROI
+8. Conclusions
+
+followed by `bibliografia.tex`. The two external papers cited in the bibliography are **not** redistributed
+here; they are referenced by title and author in [`capitoli/bibliografia.tex`](Relazione/capitoli/bibliografia.tex).
+
+### Building the report
 
 ```sh
 cd Relazione
-latexmk -pdf main.tex     # produce main.pdf
-latexmk -C                # ripulisce gli artefatti di compilazione
+latexmk -pdf main.tex     # produces main.pdf
+latexmk -C                # cleans the build artefacts
 ```
 
-Servono due passate perché indice, elenchi di figure e tabelle e riferimenti incrociati si
-stabilizzino: `latexmk` le esegue da solo. Gli artefatti (`.aux`, `.log`, `.toc`, …) sono
-ignorati da git; `main.pdf` invece è versionato in quanto elaborato finale.
+`latexmk` runs the passes needed for the table of contents, the lists of figures and tables and the
+cross-references to stabilise. The build artefacts (`.aux`, `.log`, `.toc`, …) are git-ignored; `main.pdf` is
+versioned as the final deliverable.
 
-### Immagini
+### Figures
 
-`Relazione/imgs/` non è generata automaticamente: i PNG vengono esportati da draw.io o dai
-fogli di calcolo nella cartella `export/` della rispettiva area e poi copiati sotto
-`Relazione/imgs/<categoria>/` (`context`, `scenario`, `usecase`, `bpmn`, `projectplan`,
-`gantt`). **Dopo aver modificato un diagramma occorre riesportarlo e ricopiarlo**, altrimenti
-la relazione continua a mostrare la versione precedente.
+`Relazione/imgs/` is not generated automatically: the PNGs are exported from draw.io or from the spreadsheets
+into the `export/` folder of each area and then copied under `Relazione/imgs/<category>/` (`context`,
+`scenario`, `usecase`, `bpmn`, `projectplan`, `gantt`). **After editing a diagram it must be re-exported and
+re-copied**, otherwise the report keeps showing the previous version.
 
-Due immagini non hanno un sorgente versionato e vanno rigenerate a mano se servono modifiche:
-`imgs/swot.png` (matrice SWOT) e `imgs/evoluzione.png` (grafico del Business Plan).
+Two images have no versioned source and must be regenerated by hand if they change: `imgs/swot.png` (the SWOT
+matrix) and `imgs/evoluzione.png` (the business-plan chart).
 
-`Relazione/ritaglia_bianco.py` ritaglia il bianco in eccesso dai PNG esportati, utile per i
-GANTT che escono dai fogli di calcolo con ampi margini vuoti:
+`Relazione/ritaglia_bianco.py` trims the surrounding whitespace from exported PNGs (useful for the Gantt charts
+exported from spreadsheets with wide margins). It requires `Pillow` and `numpy`:
 
 ```sh
-python3 ritaglia_bianco.py --dry-run        # mostra cosa farebbe
-python3 ritaglia_bianco.py imgs/gantt       # ritaglia (tiene una copia degli originali)
+python3 ritaglia_bianco.py --dry-run     # show what it would do
+python3 ritaglia_bianco.py imgs/gantt    # trim (keeps a copy of the originals)
 ```
 
-Richiede `Pillow` e `numpy`.
+## From the exam version to today
+
+The version delivered for the exam is kept under the git tag `exam-2026`. Reworking it as a portfolio project:
+
+- **English README** describing the project, its method and how to build the report.
+- **Added an MIT license** for the authors' original work.
+- **Removed third-party material.** The two cited academic papers that were bundled under
+  `Relazione/riferimenti/` are no longer redistributed; they remain cited in the bibliography.
+- **Housekeeping:** a `.editorconfig`, and a `.gitignore` that excludes draw.io backups and LaTeX artefacts.
+
+## License
+
+[MIT](LICENSE) © Gabriele Hamil, Matteo Stricagnolo. The report text, diagrams and models are the authors'
+original work; externally cited works belong to their respective authors.

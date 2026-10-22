@@ -1,8 +1,9 @@
-# Backup e file temporanei di draw.io
+# draw.io backups and temporary files
 *.bkp
 *.dtmp
+.$*
 
-# Artefatti di compilazione LaTeX (il PDF finale resta versionato)
+# LaTeX build artefacts (the final main.pdf stays versioned)
 *.aux
 *.log
 *.out
@@ -14,3 +15,12 @@
 *.lot
 *.bbl
 *.blg
+
+# Python helper
+__pycache__/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
